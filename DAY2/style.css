@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    padding: 18px 32px;
+}
+.head{
+    text-decoration: underline;
+    
+}
+.picture{
+    text-align: center;
+}
+img{
+    height: 300px;
+    width:400px;
+}
+.btn{
+    display:block;
+    padding:1em;
+    border:none;
+    border-radius: 8px;
+    margin:10px auto;
+    font-size: 10px;
+    width:8em;
+}
+
+.smallbtn{
+    display: block;
+    font-size:17px;
+    border-radius: 14px;
+    margin:10px auto;
+    border:none;
+    padding:1em;
+    width:8em;
+    
+}
+.ssmallbtn{
+    display: block;
+    font-size:20px;
+    border-radius: 8px;
+    margin:10px auto;
+    border:none;
+    padding:1em;
+    width:8em;
+    
+}
+html{
+    font-size: 12px;
+}
+.parent{
+    font-size: 32px;
+}
+.child{
+    font-size:2em;
+    background-color: aqua;
+    width:10em;
+}
+
+.top1{
+  
+    font-size:3rem;
+}
+
+#top {
+    font-size:2rem;
+}
+.viewport{
+    font-size: 10vw;
+}
+.viewport1{
+    font-size: 14vh;
+}
+.p1{
+    background-color: rgb(80, 182, 182);
+    height: 30%;;
+}
+.c1{
+    max-height:200px;
+    width:25%;
+    background-color: rgb(206, 229, 229);
+}
+.list{
+    ol{
+        background-color: bisque;
+    }
+    ul:last-child {
+        background-color: rgb(196, 248, 255);
+    }
+    ul:last-child li:nth-child(2){
+        background-color: rgb(214, 119, 42);
+    }
+    ul:first-child li:nth-of-type(3){
+        background-color: rgb(214, 119, 42);
+    }
+}
+.list2 ul
+    {
+        background-color: bisque;
+
+    }
+
+.list2>ul
+    {
+        background-color: rgb(91, 204, 242);
+
+    }
+.list2+ul
+    {
+        background-color: rgb(146, 242, 91);
+
+    }
+
+
+.list3{
+    background-color: blueviolet;
+    display:flex;
+}    
+.p3{
+    justify-content: space-between;
+}
+.p4{
+    justify-content: space-evenly;
+}
+.p5{
+    justify-content: space-around;
+}
+.p6{
+    justify-content: flex-end;
+}
+.list-n{
+    border:1px solid #021317;
+    background-color: aquamarine;
+    flex-basis: 40px;
+}
+    
+    
+
+
+
+
+
