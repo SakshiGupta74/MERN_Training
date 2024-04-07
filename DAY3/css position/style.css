@@ -1,0 +1,46 @@
+.body{
+    min-width: 100vh;
+    min-height: 100vw;
+
+}
+.logo{
+    background-color: cornflowerblue;
+    height:100px;
+    width:100px;
+    border:1px solid #b4e860;
+    position:static;
+}
+.logo2{
+     background-color: blueviolet;
+     height: 200px;
+     width:350px;
+     position: relative;
+     left:60px;
+     bottom:50px;
+}
+.logo3{
+    background-color: rgb(180, 235, 129);
+    height: 100px;
+    width:200px;
+    position: absolute;
+    left:80px;
+    top:100px;
+}
+.parent3{
+    background-color:aquamarine;
+    height: 100px;
+    width:100px;
+    position: fixed;
+    top:100px;
+    left:100px;
+}
+h1{
+    position:sticky;
+    top:10px;
+}
+section{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+

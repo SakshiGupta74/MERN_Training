@@ -1,0 +1,60 @@
+/* button{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height:100px;
+    padding:8px 16px;
+    font-size: 24px;
+    border:none;
+    border-radius: 8px;
+    transition-property:background-color, scale;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    scale:2;
+}    */
+
+button{
+    scale:2;
+    position: absolute;
+    top:20px;
+    left:40px;
+
+    animation-name: button-animation-type-1;
+    animation-duration: 4s;
+    transition-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+/* @keyframes button-animation-type-1{
+    from{
+        top:20px;
+        left:40px;
+    }
+    to{
+        top:20px;
+        left:500px;
+    }
+} */
+@keyframes button-animation-type-1{
+    0%{
+        top:20px;
+        left:40px;
+    }
+    30%{
+        top:20px;
+        left:500px;
+    }
+    60%{
+        top:500px;
+        left:500px
+    }
+    90%{
+        top:500px;
+        left:20px;
+    }
+}
