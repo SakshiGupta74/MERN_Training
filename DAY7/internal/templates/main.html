@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    
+        #root{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: rgb(63 55 55);
+        }
+        .product-card{
+            background-color:lavender;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 37px;
+        }
+        img{
+            max-width: 134px;
+            max-height: 68px;
+            margin: auto;
+            display: block;
+            transition: height 4s,width 2s;
+        }
+        img:hover {
+         width: 300px;
+          height: 300px;
+}
+        p,a{
+            font-size: 6px;
+            margin: 4px;
+        }
+        h4{
+            text-align: center;
+            font-size: 12px;
+        }
+        nav{
+            width:100%;
+            height:30px;
+            border:1px solid rgba(0, 0, 0, 0.678);
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- <img src="/DAY7/internal/templates/images.jpg"> -->
+    </nav>
+    <div id="root">
+        __PRODUCTS__CARDS__
+    
+    </div>
+    <script>
+        const root=document.getElementById("root");
+        
+    </script>
+</body>
+</html>
