@@ -1,0 +1,28 @@
+.header-parent-container{
+    box-shadow: rgba(130, 168, 168, 0.685) 0px 10px 10px -10px;
+    display: flex;
+    background-color: rgba(203, 237, 244, 0.639);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 5px;
+    color: white;
+
+    a{
+        color: white;
+        text-decoration:none;
+        font-size: 12px;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .right{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background-color: rgb(108, 169, 199);
+    }
+}

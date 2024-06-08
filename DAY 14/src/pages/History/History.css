@@ -1,0 +1,43 @@
+
+
+.history-main-container{
+    color: white;
+
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+
+    flex-wrap: wrap;
+}
+
+.history-card{
+    max-width: 300px;
+    color:black;
+    background-color: rgb(240, 249, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 16px;
+    border-radius: 20px;
+
+
+   
+}
+p{
+    color: rgb(87, 160, 170);
+    font-size: 12px;
+    margin: 5px;
+
+}
+h4{
+    font-size:18px;
+    text-decoration:underline;
+}
+
+.search-box-input{
+    display: block;
+    width: 200px;
+    margin: 16px auto;
+    padding: 4px 8px;
+
+}
